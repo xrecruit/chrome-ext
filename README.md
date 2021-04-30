@@ -41,10 +41,12 @@ Usage
 
 * _NAUKRI EXTENSION_ icon will change its color ![image](img/icon.png)
 * Click on the _NAUKRI EXTENSION_ icon, enter your login credentials if you see login screen ![image](img/login.png)
-* If you are fetching resumes for the first time using _NAUKRI EXTENSION_ set back it will take quite some time depending on your internet speed :) ![image](img/loading.png)
+* If you are fetching resumes for the first time using _NAUKRI EXTENSION_ set back it will take quite some time depending on your internet speed :)
+* ![image](img/loading.png)
 * After the loading is finished, You will see following:-
     - List of profiles fetched in dropdowns
-    - Total number of resumes fetched ![image](img/list.png)
+    - Total number of resumes fetched 
+    - ![image](img/list.png)
 * You can check and see if any of the dropdown has more than 1 value, feel free to select the appropriate one.
 * Selected dropdown value will be saved and on the next consecutives run it will be pre selected, you can change it if you want to
 * Once all dropdown are selected, click on **SYNC** button you see at the bottom.
