@@ -22,13 +22,19 @@ Via Local file .zip ( Load unpacked )
  (in Google Chrome) More tools > Extensions
  (in Microsoft Edge) Extensions
  ```
+ * following image is for Google Chrome
  * ![image](img/c_step1.png)
+ * following image is for Microsoft Edge
  * ![image](img/e_step1.png)
  * Toggle _ON_ **Developer mode**
     - (in Google Chrome) on the top right corner of Extensions page
     - (in Microsoft Edge) on the bottom left corner of Extensions page
- * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files
+ * Ask admin for the .zip file having _NAUKRI EXTENSION_ files
+ * Unzip that file on you local machine
+ * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files ( the folder which you get after you unzip that .zip file )
+ * following image is for Google Chrome
  * ![image](img/c_devmode.png)
+ * following image is for Microsoft Edge
  * ![image](img/e_devmode.png)
  * You will see the Extension installed on the same page
  * Check and turn _ON_ the toggle of the installed _NAUKRI EXTENSION_ extension
