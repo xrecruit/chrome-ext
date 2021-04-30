@@ -22,10 +22,14 @@ Via Local file .zip ( Load unpacked )
  (in Google Chrome) More tools > Extensions
  (in Microsoft Edge) Extensions
  ```
+ * ![image](img/c_step1.png)
+ * ![image](img/e_step1.png)
  * Toggle _ON_ **Developer mode**
     - (in Google Chrome) on the top right corner of Extensions page
     - (in Microsoft Edge) on the bottom left corner of Extensions page
  * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files
+ * ![image](img/c_devmode.png)
+ * ![image](img/e_devmode.png)
  * You will see the Extension installed on the same page
  * Check and turn _ON_ the toggle of the installed _NAUKRI EXTENSION_ extension
     - (in Google Chrome) on the bottom right corner
