@@ -61,8 +61,10 @@ Usage
 * You can check and see if any of the dropdown has more than 1 value, feel free to select the appropriate one.
 * Selected dropdown value will be saved and on the next consecutives run it will be pre selected, you can change it if you want to
 * Once all dropdown are selected, click on **SYNC** button you see at the bottom.
-* Once all resumes are successfully sent the **SYNC** button will turn into ![#198754](https://via.placeholder.com/15/198754/000000?text=+) green color ![image](img/success.png)
-* If in case something went wrong **SYNC** button will turn into ![#dc3545](https://via.placeholder.com/15/dc3545/000000?text=+) red color ![image](img/danger.png)
+* Once all resumes are successfully sent the **SYNC** button will turn into ![#198754](https://via.placeholder.com/15/198754/000000?text=+) green color
+    - ![image](img/success.png)
+* If in case something went wrong **SYNC** button will turn into ![#dc3545](https://via.placeholder.com/15/dc3545/000000?text=+) red color
+    - ![image](img/danger.png)
 
 
 Troubleshooting
