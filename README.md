@@ -23,9 +23,9 @@ Via Local file .zip ( Load unpacked )
  (in Microsoft Edge) Extensions
  ```
  * following image is for Google Chrome
- * ![image](img/c_step1.png)
+    - ![image](img/c_step1.png)
  * following image is for Microsoft Edge
- * ![image](img/e_step1.png)
+    - ![image](img/e_step1.png)
  * Toggle _ON_ **Developer mode**
     - (in Google Chrome) on the top right corner of Extensions page
     - (in Microsoft Edge) on the bottom left corner of Extensions page
@@ -33,9 +33,9 @@ Via Local file .zip ( Load unpacked )
  * Unzip that file on you local machine
  * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files ( the folder which you get after you unzip that .zip file )
  * following image is for Google Chrome
- * ![image](img/c_devmode.png)
+    - ![image](img/c_devmode.png)
  * following image is for Microsoft Edge
- * ![image](img/e_devmode.png)
+    - ![image](img/e_devmode.png)
  * You will see the Extension installed on the same page
  * Check and turn _ON_ the toggle of the installed _NAUKRI EXTENSION_ extension
     - (in Google Chrome) on the bottom right corner
@@ -47,12 +47,13 @@ Via Local file .zip ( Load unpacked )
 
 Usage
 ------------
-* Login to recruit.naukri.com and go to https://rms.naukri.com/admin/homePage
+* Login to https://rms.naukri.com/admin/homePage and make sure the URL should be _rms.naukri.com/admin/homePage_
 
 * _NAUKRI EXTENSION_ icon will change its color ![image](img/icon.png)
-* Click on the _NAUKRI EXTENSION_ icon, enter your login credentials if you see login screen ![image](img/login.png)
+* Click on the _NAUKRI EXTENSION_ icon, enter your login credentials if you see login screen
+    - ![image](img/login.png)
 * If you are fetching resumes for the first time using _NAUKRI EXTENSION_ set back it will take quite some time depending on your internet speed :)
-* ![image](img/loading.png)
+    - ![image](img/loading.png)
 * After the loading is finished, You will see following:-
     - List of profiles fetched in dropdowns
     - Total number of resumes fetched 
