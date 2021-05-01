@@ -19,27 +19,27 @@ Via Local file .zip ( Load unpacked )
  * Click on the _three dot_ menu on the top right corner of your browser (chrome / edge)
  * Navigate to the following menus
  ```
- (in Google Chrome) More tools > Extensions
- (in Microsoft Edge) Extensions
+ (in Google Chrome) More tools > Extensions **(see following image)
+ (in Microsoft Edge) Extensions **(see following image)
  ```
  * following image is for Google Chrome
     - ![image](img/c_step1.png)
  * following image is for Microsoft Edge
     - ![image](img/e_step1.png)
  * Toggle _ON_ **Developer mode**
-    - (in Google Chrome) on the top right corner of Extensions page
-    - (in Microsoft Edge) on the bottom left corner of Extensions page
+    - (in Google Chrome) on the top right corner of Extensions page **(see following image)
+    - (in Microsoft Edge) on the bottom left corner of Extensions page **(see following image)
  * Ask admin for the .zip file having _NAUKRI EXTENSION_ files
  * Unzip that file on you local machine
- * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files ( the folder which you get after you unzip that .zip file )
+ * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files ( the folder which you get after you unzip that .zip file ) **(see following image)
  * following image is for Google Chrome
     - ![image](img/c_devmode.png)
  * following image is for Microsoft Edge
     - ![image](img/e_devmode.png)
  * You will see the Extension installed on the same page
  * Check and turn _ON_ the toggle of the installed _NAUKRI EXTENSION_ extension
-    - (in Google Chrome) on the bottom right corner
-    - (in Microsoft Edge) on the top right corner
+    - (in Google Chrome) on the bottom right corner **(see above image)
+    - (in Microsoft Edge) on the top right corner **(see above image)
  * (in Google Chrome) click on the puzzle piece icon beside three dot vertical menu on the top right corner
  * (in Google Chrome) find the _NAUKRI EXTENSION_ from the list and click on the pin icon
  * (in Google Chrome) now you might be able to see the _NAUKRI EXTENSION_ beside the puzzle piece icon
@@ -47,7 +47,7 @@ Via Local file .zip ( Load unpacked )
 
 Usage
 ------------
-* Login to https://rms.naukri.com/admin/homePage and make sure the URL should be _rms.naukri.com/admin/homePage_
+* Login to https://rms.naukri.com/admin/homePage and make sure the URL should be _https://rms.naukri.com/admin/homePage_
 
 * _NAUKRI EXTENSION_ icon will change its color ![image](img/icon.png)
 * Click on the _NAUKRI EXTENSION_ icon, enter your login credentials if you see login screen
@@ -58,7 +58,8 @@ Usage
     - List of profiles fetched in dropdowns
     - Total number of resumes fetched 
     - ![image](img/list.png)
-* You can check and see if any of the dropdown has more than 1 value, feel free to select the appropriate one.
+* You can check and see if any of the dropdown has more than 1 value, feel free to select the appropriate one. **(see following image)
+    - ![image](img/multipleVal.png) 
 * Selected dropdown value will be saved and on the next consecutives run it will be pre selected, you can change it if you want to
 * Once all dropdown are selected, click on **SYNC** button you see at the bottom.
 * Once all resumes are successfully sent the **SYNC** button will turn into ![#198754](https://via.placeholder.com/15/198754/000000?text=+) green color
