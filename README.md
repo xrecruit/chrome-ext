@@ -23,35 +23,39 @@ Via Local file .zip ( Load unpacked )
  (in Microsoft Edge) Extensions **(see following image)
  ```
  * following image is for Google Chrome
-    - ![image](img/c_step1.png)
+    - ![image](img/c_step1.gif)
  * following image is for Microsoft Edge
-    - ![image](img/e_step1.png)
+    - ![image](img/e_step1.gif)
  * Toggle _ON_ **Developer mode**
     - (in Google Chrome) on the top right corner of Extensions page **(see following image)
+    - ![image](img/c_devmode.png)
     - (in Microsoft Edge) on the bottom left corner of Extensions page **(see following image)
+    - ![image](img/e_devmode.png)
  * Ask admin for the .zip file having _NAUKRI EXTENSION_ files
  * Unzip that file on you local machine
+    - ![image](img/unzip.gif)
  * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files ( the folder which you get after you unzip that .zip file ) **(see following image)
- * following image is for Google Chrome
+    - ![image](img/load_unpacked.gif)
+ * You will see the Extension installed on the extensions page
+ * Check and turn _ON_ the toggle of the installed _NAUKRI EXTENSION_ extension which you will find on extensions page
+    - (in Google Chrome) on the bottom right corner **(see following image)
     - ![image](img/c_devmode.png)
- * following image is for Microsoft Edge
+    - (in Microsoft Edge) on the top right corner **(see following image)
     - ![image](img/e_devmode.png)
- * You will see the Extension installed on the same page
- * Check and turn _ON_ the toggle of the installed _NAUKRI EXTENSION_ extension
-    - (in Google Chrome) on the bottom right corner **(see above image)
-    - (in Microsoft Edge) on the top right corner **(see above image)
  * (in Google Chrome) click on the puzzle piece icon beside three dot vertical menu on the top right corner
  * (in Google Chrome) find the _NAUKRI EXTENSION_ from the list and click on the pin icon
  * (in Google Chrome) now you might be able to see the _NAUKRI EXTENSION_ beside the puzzle piece icon
+    - For Google Chrome
+    - ![image](img/pin_ext.gif)
 
 
 Usage
 ------------
-* Login to https://rms.naukri.com/admin/homePage and make sure the URL should be _https://rms.naukri.com/admin/homePage_
+* Login to [CTRL+click (on Windows / Linux) or CMD+click (on MacOS) on the link] https://rms.naukri.com/admin/homePage and make sure the URL should be _https://rms.naukri.com/admin/homePage_
 
 * _NAUKRI EXTENSION_ icon will change its color ![image](img/icon.png)
-* Click on the _NAUKRI EXTENSION_ icon, enter your login credentials if you see login screen
-    - ![image](img/login.png)
+* Click on the _NAUKRI EXTENSION_ icon, enter your **Recruit AI** login credentials if you see login screen
+    - ![image](img/login.gif)
 * If you are fetching resumes for the first time using _NAUKRI EXTENSION_ set back it will take quite some time depending on your internet speed :)
     - ![image](img/loading.png)
 * After the loading is finished, You will see following:-
