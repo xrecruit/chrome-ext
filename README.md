@@ -31,7 +31,7 @@ Via Local file .zip ( Load unpacked )
     - ![image](img/c_devmode.png)
     - (in Microsoft Edge) on the bottom left corner of Extensions page **(see following image)
     - ![image](img/e_devmode.png)
- * Ask admin for the .zip file having _NAUKRI EXTENSION_ files
+ * Click and download .zip file which has _NAUKRI EXTENSION_ files [File Chrome-ext](chrome-ext.zip)
  * Unzip that file on you local machine
     - ![image](img/unzip.gif)
  * Click **Load unpacked** button and select the folder having _NAUKRI EXTENSION_ files ( the folder which you get after you unzip that .zip file ) **(see following image)
