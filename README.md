@@ -1,9 +1,9 @@
 # Naukri Extension
 ___
-This Extension is used to fetch resumes meta data from Naukri.com portal in one go 
+This Extension is used to fetch resumes meta data from Naukri.com, Indeed.com portals in one go 
 
 ## Features
-- Fetch all relevant profile resumes meta data from naukri.com in one go
+- Fetch all relevant profile resumes meta data from naukri.com, indeed.com in one go
 - Select profiles to fetch resumes based on your preferences eg: Vue, Node, HR etc.
 - Auto save preferred profiles
 - Fetch recent new resumes from the portal
@@ -51,8 +51,10 @@ Via Local file .zip ( Load unpacked )
 
 Usage
 ------------
-* Login to [CTRL+click (on Windows / Linux) or CMD+click (on MacOS) on the link] https://rms.naukri.com/admin/homePage and make sure the URL should be _https://rms.naukri.com/admin/homePage_
-
+* For Naukri.com
+    - Login to [CTRL+click (on Windows / Linux) or CMD+click (on MacOS) on the link] https://rms.naukri.com/admin/homePage and make sure the URL should be _https://rms.naukri.com/admin/homePage_
+* For Indeed.com
+    - Login to [CTRL+click (on Windows / Linux) or CMD+click (on MacOS) on the link] https://employers.indeed.com/j#jobs and make sure the URL should be _https://employers.indeed.com/j#jobs_
 * _NAUKRI EXTENSION_ icon will change its color ![image](img/icon.png)
 * Click on the _NAUKRI EXTENSION_ icon, enter your **Recruit AI** login credentials if you see login screen
     - ![image](img/login.gif)
