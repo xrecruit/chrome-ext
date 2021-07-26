@@ -19,8 +19,7 @@
             ],
             "js": [
                 "axios.min.js",
-                "content.js",
-                "config.js"
+                "content.js"
             ]
         }
     ],
