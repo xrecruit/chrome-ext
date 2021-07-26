@@ -17,10 +17,16 @@ var resumeData = []
 var transitionEndEventName = getTransitionEndEventName();
 var totalResumeSent = 0
 var userInfo = {}
+var domainUrl = "";
 
 // EVENT LISTENERS
 document.addEventListener("DOMContentLoaded", function () {
+    chrome.storage.local.get(['domain'], function (response) {
+        domainUrl = response.domain;
+    })
+
     btn.addEventListener('click', async () => {
+
         let catchError = false
 
         if (!availableResumes) return
@@ -63,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
             for (const resume of resumes) {
                 toggleLoading()
                 try {
-                    await axios.post(`${baseUrl}/email/add-manual-bulk?accessToken=${token}`, resume)
+                    await axios.post(`${domainUrl}/email/add-manual-bulk?accessToken=${token}`, resume)
 
                     if (lsnp.length) {
                         lsnp = lsnp.map(ls => {
@@ -101,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     btn_logout.addEventListener('click', async () => {
         const { token } = userInfo
-        axios.post(`${baseUrl}/user/update/profile?accessToken=${token}`, { extensionLogin: false })
+        axios.post(`${domainUrl}/user/update/profile?accessToken=${token}`, { extensionLogin: false })
 
         const signIn = false
         chrome.storage.local.set({ userStatus: signIn, user_info: {} }, function (response) {
@@ -133,12 +139,10 @@ function extractResumesFromWebPage(ls) {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         const { naukriProfile = [] } = ls || {}
         const payload = { naukriProfile }
-
         var extPort = chrome.tabs.connect(
             tabs[0].id,
             { name: "naukri-ext" }
         );
-
         extPort.postMessage(payload);
 
         extPort.onMessage.addListener(function (response) {
@@ -371,18 +375,21 @@ async function allowNewResumesOnly(res) {
     return resumes
 }
 
-async function fetchProfiles(ud = null) {
+async function fetchProfiles(ud = null, domain) {
+    chrome.storage.local.get(['domain'], function (response) {
+        domainUrl = response.domain;
+    })
     const { token } = ud || userInfo
     if (ud) {
         userInfo = ud
     }
-    const profiles = await axios.get(`${baseUrl}/job-profile/list?accessToken=${token}`)
-
+    const profiles = await axios.get(`${domain ? domain : domainUrl}/job-profile/list?accessToken=${token}`)
     if (!profiles.data.length) {
         handleErrorMessages('Error fetching profiles, try again')
     }
 
-    jobProfiles = profiles.data
+    jobProfiles = profiles.data.filter(item => item.active_status);
+    chrome.storage.local.set({ naukriProfile: jobProfiles })
 }
 
 // clearLSSentProfiles()
@@ -404,6 +411,7 @@ function clearState() {
     currProfileID = ""
     resumeData = []
     totalResumeSent = 0
+    domainUrl = '';
     setResumeCount("0")
     const container = document.querySelector('#dynamic-dropdowns');
     removeAllChildNodes(container);

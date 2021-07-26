@@ -15,7 +15,7 @@ Installation
  * TBD.
  
 
-Via Local file .zip ( Load unpacked )
+Via Local file .zip ( https://github.com/xrecruit/chrome-ext/blob/latest-code/chrome-ext.zip Load unpacked ) 
  * Click on the _three dot_ menu on the top right corner of your browser (chrome / edge)
  * Navigate to the following menus
  ```

@@ -230,11 +230,13 @@ chrome.runtime.onConnect.addListener(function (port) {
 
 // Listen to messages from background.js
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    const c = JSON.parse(message.c)
-
-    if (c.name === 'CSRF') {
-        csrfToken = c.value
+    // leaving console for debugging purpose
+    console.log('message', message)
+    if(message.c){
+        const c = JSON.parse(message.c)
+        if (c.name === 'CSRF') {
+            csrfToken = c.value
+        }
     }
-
     portal = message.portal
 });
